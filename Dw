@@ -14,7 +14,7 @@ try:
     import requests
 except ImportError:
     os.system('pip2 install requests')
-    os.system('python2 new.py')
+    os.system('python2 Dw')
 
 from requests.exceptions import ConnectionError
 from mechanize import Browser
@@ -95,9 +95,9 @@ listgrup = []
 def masuk():
     os.system('clear')
     print logo
-    print '\x1b[1;91m\x1b[1;97m1.\x1b[1;96m Login Via UserName/ID'
+    print '\x1b[1;91m\x1b[1;97m1.\x1b[1;96m Login Via Email/ID'
     print '\x1b[1;91m\x1b[1;97m2.\x1b[1;96m Login Via Token ID'
-    print '\x1b[1;91m\x1b[1;97m0.\x1b[1;91m Keluar'
+    print '\x1b[1;91m\x1b[1;97m0.\x1b[1;91m Back'
     print
     msuk = raw_input('\x1b[1;92m\xef\xb8\xbb\xe3\x83\x87\xe2\x95\x90\xe4\xb8\x80\xe2\x96\xb8 \x1b[1;90m:\x1b[1;97m ')
     if msuk == '':
@@ -145,8 +145,8 @@ def login():
         os.system('clear')
         print logo
         print '           \x1b[1;93m\xe2\x98\xa0\xef\xb8\x8f<><><><><><><><><><><><><><>\xe2\x98\xa0\xef\xb8\x8f'
-        print '                      Login With New Facebook ID   '
-        print '                       Dwnt Use Ur Personal  ID   '
+        print '                Login With New Facebook ID   '
+        print '                 Dwnt Use Ur Personal  ID   '
         print '           \x1b[1;93m\xe2\x98\xa0\xef\xb8\x8f<><><><><><><><><><><><><><>\xe2\x98\xa0\xef\xb8\x8f\n'
         id = raw_input('\x1b[1;97m[+] \x1b[1;96mID/Email \x1b[1;91m=\x1b[1;92m ')
         pwd = raw_input('\x1b[1;97m[+] \x1b[1;96mPassword \x1b[1;91m=\x1b[1;92m ')
@@ -232,7 +232,7 @@ def menu():
     print '\x1b[1;92m3.\x1b[1;97m Yahoo Checker '
     print '\x1b[1;92m4.\x1b[1;97m Facebook PassWord '
     print '\x1b[1;92m5.\x1b[1;97m Info Crack '
-    print '\n\x1b[1;97m0.\x1b[1;91m Logout            '
+    print '\n\x1b[1;97m0.\x1b[1;91m Logout  '
     pilih()
 
 
@@ -274,24 +274,24 @@ def info_crack():
     os.system('clear')
     print logo
     print '    ++++++++++++++++ INFO CRACK ++++++++++++++++ \n'
-    Mengetik(' \x1b[1;92m              Fast Cloning  \n')
+    Mengetik(' \x1b[1;92m           Fast Cloning  \n')
     Mengetik('\x1b[1;93m1. Pakistan')
     Mengetik('2. 000786')
     Mengetik('3. 786786')
     Mengetik('4. First Name  + 123')
     Mengetik('5. First Name  + 1234')
     Mengetik('6. First Name  + 12345')
-    Mengetik('7. ')
+    Mengetik('7. Pakistan123')
     Mengetik('8. Last Name + 123\n')
-    Mengetik('\x1b[1;92m          MultyFast Cloning   \n')
+    Mengetik('\x1b[1;92m            MultyFast Cloning   \n')
     Mengetik('\x1b[1;93m1. 786786')
-    Mengetik('2. pakistan')
+    Mengetik('2. pakistan1122')
     Mengetik('3. Name + 1122')
     Mengetik('4. Name  + 7172')
     Mengetik('5. Name  + 12')
     Mengetik('6. Name  + 55')
     Mengetik('7. Name  + &123')
-    Mengetik('8. Pakistan')
+    Mengetik('8. Pakistan786')
     raw_input('\n\x1b[1;96m[\x1b[1;97m Back \x1b[1;96m]')
     menu()
 
@@ -359,7 +359,7 @@ def pilih_super():
         print '\x1b[1;97m{\x1b[1;95m+\x1b[1;97m} \x1b[1;96mTotal ID \x1b[1;91m: \x1b[1;97m' + str(len(id))
         titik = ['.   ', '..  ', '... ']
         for o in titik:
-            print '\r\x1b[1;97m{\x1b[1;95m\xe2\x80\xa2\x1b[1;97m}\x1b[1;96m Cracking\x1b[1;97m' + o,
+            print '\r\x1b[1;97m{\x1b[1;95m\xe2\x80\xa2\x1b[1;97m}\x1b[1;96mCracking\x1b[1;97m' + o,
             sys.stdout.flush()
             time.sleep(1)
 
