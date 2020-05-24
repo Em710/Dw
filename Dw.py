@@ -131,7 +131,7 @@ def tokenz():
         time.sleep(1)
         menu()
     except KeyError:
-        psalah'\x1b[1;91m[!] Token Wrong !'
+        print '\x1b[1;91m[!] Token Wrong !'
         time.sleep(1.7)
         masuk()
 
@@ -145,8 +145,8 @@ def login():
         os.system('clear')
         print logo
         print '           \x1b[1;93m\xe2\x98\xa0\xef\xb8\x8f<><><><><><><><><><><><><><>\xe2\x98\xa0\xef\xb8\x8f'
-        print '                    Login With New Facebook ID   '
-        print '                    Dwnt Use Ur Personal  ID   '
+        print '                      Login With New Facebook ID   '
+        print '                       Dwnt Use Ur Personal  ID   '
         print '           \x1b[1;93m\xe2\x98\xa0\xef\xb8\x8f<><><><><><><><><><><><><><>\xe2\x98\xa0\xef\xb8\x8f\n'
         id = raw_input('\x1b[1;97m[+] \x1b[1;96mID/Email \x1b[1;91m=\x1b[1;92m ')
         pwd = raw_input('\x1b[1;97m[+] \x1b[1;96mPassword \x1b[1;91m=\x1b[1;92m ')
