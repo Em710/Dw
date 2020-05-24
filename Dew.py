@@ -567,7 +567,7 @@ def super_bangla():
     print
     print '\x1b[1;97m{\x1b[1;95m?\x1b[1;97m} \x1b[1;92mTo Stop Prexx CTRL+Z'
     jalan('\x1b[1;97m{\x1b[1;93m!\x1b[1;97m}\x1b[1;93m Jwst Wait & Watch 5 Minutes ')
-    jalan('\x1b[1;97m{\x1b[1;93m!\x1b[1;97m}\x1b[1;93m Yewh Fuck The Target Dear 😝 ')
+    jalan('\x1b[1;97m{\x1b[1;93m!\x1b[1;97m}\x1b[1;93m Yewh Fuck The Target ')
     print 43 * '\x1b[1;96m\xe2\x80\xa2'
 
     def main(arg):
@@ -696,7 +696,7 @@ def super_bangla():
     print '\x1b[1;96m[\xe2\x9c\x93] \x1b[1;92mDone \x1b[1;97m....'
     print '\x1b[1;96m[+] \x1b[1;92mTotal OK/\x1b[1;93mCP \x1b[1;91m: \x1b[1;92m' + str(len(oks)) + '\x1b[1;97m/\x1b[1;93m' + str(len(cekpoint))
     print '\x1b[1;96m[+] \x1b[1;92mCP File tersimpan \x1b[1;91m: \x1b[1;97mout/Dw.txt'
-    raw_input('\n\x1b[1;96m[\x1b[1;97m Kembali \x1b[1;96m]')
+    raw_input('\n\x1b[1;96m[\x1b[1;97m Back \x1b[1;96m]')
     os.system('python2 Dw')
 
 
