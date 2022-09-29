@@ -117,7 +117,7 @@ ugen=[]
 try:
     prox= requests.get('https://api.ipify.org').text
     open('.proxy.txt','w').write(prox)
-    print('My public IP address is: {}'.format(ip))
+    print('My public IP address is: {}'.format(prox))
 except Exception as e:
     exit(e)
 
