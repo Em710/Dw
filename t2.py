@@ -117,9 +117,15 @@ ugen=[]
 try:
     prox= requests.get('https://api.ipify.org').text
     open('.proxy.txt','w').write(prox)
-    print('My public IP address is: {}'.format(prox))
 except Exception as e:
     exit(e)
+
+def loading():
+    animation = ["[\x1b[1;91m■\x1b[0m□□□□□□□□□]","[\x1b[1;92m■■\x1b[0m□□□□□□□□]", "[\x1b[1;93m■■■\x1b[0m□□□□□□□]", "[\x1b[1;94m■■■■\x1b[0m□□□□□□]", "[\x1b[1;95m■■■■■\x1b[0m□□□□□]", "[\x1b[1;96m■■■■■■\x1b[0m□□□□]", "[\x1b[1;97m■■■■■■■\x1b[0m□□□]", "[\x1b[1;98m■■■■■■■■\x1b[0m□□]", "[\x1b[1;99m■■■■■■■■■\x1b[0m□]", "[\x1b[1;910m■■■■■■■■■■\x1b[0m]"]
+    for i in range(50):
+        time.sleep(0.1)
+        sys.stdout.write(f"\r {N}[{H}•{N}] {H}Loading...{N} " + animation[i % len(animation)] +"\x1b[0m ")
+        sys.stdout.flush()
 
 for xd in range(10000):
     a='Mozilla/5.0 (Symbian/3; Series60/'
@@ -129,9 +135,9 @@ for xd in range(10000):
     e=random.randrange(100, 9999)
     f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/'
     g=random.randrange(1, 9)
-    h=random.randrange(1, 4)
-    i=random.randrange(1, 4)
-    j=random.randrange(1, 4)
+    h=random.randrange(1, 9)
+    i=random.randrange(1, 9)
+    j=random.randrange(1, 9)
     k='Mobile Safari/535.1'
     uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
     ugen2.append(uaku)
@@ -164,12 +170,7 @@ def mentod():
     print(' [%s2%s] Method 2 mbasic (%sRecommended%s)'%(H,N,H,N))
     print(' [%s3%s] Method 3 mobile (%sRecommended%s)'%(H,N,H,N))
 #-------- LOADING ANIMASI ------------
-def loading():
-    animation = ["[\x1b[1;91m■\x1b[0m□□□□□□□□□]","[\x1b[1;92m■■\x1b[0m□□□□□□□□]", "[\x1b[1;93m■■■\x1b[0m□□□□□□□]", "[\x1b[1;94m■■■■\x1b[0m□□□□□□]", "[\x1b[1;95m■■■■■\x1b[0m□□□□□]", "[\x1b[1;96m■■■■■■\x1b[0m□□□□]", "[\x1b[1;97m■■■■■■■\x1b[0m□□□]", "[\x1b[1;98m■■■■■■■■\x1b[0m□□]", "[\x1b[1;99m■■■■■■■■■\x1b[0m□]", "[\x1b[1;910m■■■■■■■■■■\x1b[0m]"]
-    for i in range(50):
-        time.sleep(0.1)
-        sys.stdout.write(f"\r {N}[{H}•{N}] {H}Loading...{N} " + animation[i % len(animation)] +"\x1b[0m ")
-        sys.stdout.flush()
+
     print("")
 # LOGO
 def logo():
