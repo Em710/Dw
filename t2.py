@@ -77,6 +77,10 @@ cp = []
 id = []
 user = []
 loop = 0
+
+url_http = "http://S5ZRQE8IRPJIDYZPMX3FZ594B3THWBV7388H8AY1FSCT7E7H4UNG1Z517EO41A0PNJG3PPCHWT4CWA84:PARAMETERS@proxy.scrapingbee.com:8886"
+url_https = "https://S5ZRQE8IRPJIDYZPMX3FZ594B3THWBV7388H8AY1FSCT7E7H4UNG1Z517EO41A0PNJG3PPCHWT4CWA84:PARAMETERS@proxy.scrapingbee.com:8887"
+url_socks5 = "socks5://S5ZRQE8IRPJIDYZPMX3FZ594B3THWBV7388H8AY1FSCT7E7H4UNG1Z517EO41A0PNJG3PPCHWT4CWA84:PARAMETERS@socks.scrapingbee.com:8888"
 url_lookup = "https://lookup-id.com/"
 url_mb = "https://mbasic.facebook.com"
 url_ip = "https://www.httpbin.org/ip"
@@ -114,12 +118,20 @@ uas_random2 = random.choice(["Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QK
 ugen2=[]
 ugen=[]
 
-try:
-    prox= requests.get('https://api.ipify.org').text
-    open('.proxy.txt','w').write(prox)
-    print('My public IP address is: {}'.format(prox))
-except Exception as e:
-    exit(e)
+
+    # Install the Python Requests library:
+# pip install requests
+
+def send_request():
+    proxies = ("http://S5ZRQE8IRPJIDYZPMX3FZ594B3THWBV7388H8AY1FSCT7E7H4UNG1Z517EO41A0PNJG3PPCHWT4CWA84:render_js=False&premium_proxy=True@proxy.scrapingbee.com:8886" , "https://S5ZRQE8IRPJIDYZPMX3FZ594B3THWBV7388H8AY1FSCT7E7H4UNG1Z517EO41A0PNJG3PPCHWT4CWA84:render_js=False&premium_proxy=True@proxy.scrapingbee.com:8887")
+    response = requests.get(
+        url="http://httpbin.org/headers?json"
+        proxies=proxies
+        verify=False
+
+    print('Response HTTP Status Code: ', response.status_code)
+    print('Response HTTP Response Body: ', response.content)
+send_request()
 
 for xd in range(10000):
     a='Mozilla/5.0 (Symbian/3; Series60/'
