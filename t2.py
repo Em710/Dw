@@ -121,14 +121,19 @@ ugen=[]
 
     # Install the Python Requests library:
 # pip install requests
+import requests
 
 def send_request():
-    proxies = ("http://S5ZRQE8IRPJIDYZPMX3FZ594B3THWBV7388H8AY1FSCT7E7H4UNG1Z517EO41A0PNJG3PPCHWT4CWA84:render_js=False&premium_proxy=True@proxy.scrapingbee.com:8886" , "https://S5ZRQE8IRPJIDYZPMX3FZ594B3THWBV7388H8AY1FSCT7E7H4UNG1Z517EO41A0PNJG3PPCHWT4CWA84:render_js=False&premium_proxy=True@proxy.scrapingbee.com:8887")
-    response = requests.get
-        url = ('http://httpbin.org/headers?json')
-        proxies = "proxies"
-        verify = "False"
+    proxies = {
+        "http": "http://S5ZRQE8IRPJIDYZPMX3FZ594B3THWBV7388H8AY1FSCT7E7H4UNG1Z517EO41A0PNJG3PPCHWT4CWA84:render_js=False&premium_proxy=True@proxy.scrapingbee.com:8886",
+        "https": "https://S5ZRQE8IRPJIDYZPMX3FZ594B3THWBV7388H8AY1FSCT7E7H4UNG1Z517EO41A0PNJG3PPCHWT4CWA84:render_js=False&premium_proxy=True@proxy.scrapingbee.com:8887"
+    }
 
+    response = requests.get(
+        url="http://httpbin.org/headers?json",
+        proxies=proxies,
+        verify=False
+    )
     print('Response HTTP Status Code: ', response.status_code)
     print('Response HTTP Response Body: ', response.content)
 send_request()
