@@ -77,10 +77,6 @@ cp = []
 id = []
 user = []
 loop = 0
-
-url_http = "http://S5ZRQE8IRPJIDYZPMX3FZ594B3THWBV7388H8AY1FSCT7E7H4UNG1Z517EO41A0PNJG3PPCHWT4CWA84:PARAMETERS@proxy.scrapingbee.com:8886"
-url_https = "https://S5ZRQE8IRPJIDYZPMX3FZ594B3THWBV7388H8AY1FSCT7E7H4UNG1Z517EO41A0PNJG3PPCHWT4CWA84:PARAMETERS@proxy.scrapingbee.com:8887"
-url_socks5 = "socks5://S5ZRQE8IRPJIDYZPMX3FZ594B3THWBV7388H8AY1FSCT7E7H4UNG1Z517EO41A0PNJG3PPCHWT4CWA84:PARAMETERS@socks.scrapingbee.com:8888"
 url_lookup = "https://lookup-id.com/"
 url_mb = "https://mbasic.facebook.com"
 url_ip = "https://www.httpbin.org/ip"
@@ -121,7 +117,6 @@ ugen=[]
 
     # Install the Python Requests library:
 # pip install requests
-import requests
 
 def send_request():
     proxies = {
