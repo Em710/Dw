@@ -391,7 +391,7 @@ class __chigoue__:
     def kombinasi_pw(self,url):
         print('%s══════════════════════════════════════════\n %sPassword Menu%s'%(N,BM,N))
         print('%s[%s1%s] Name,Name123,Name12345'%(H,H,H))
-        print('%s[%s2%s] Name,Name123,Name1234,Name12345 %sBest%s'%(N,BM,N))
+        print('%s[%s2%s] Name,Name123,Name1234,Name12345 %sBest%s'%(H,H,H))
         print('%s[%s3%s] Name,Name123,Name1234,Name12345,%s+Single Password Using Coma%s'%(H,H,H,H,H))
         pw = input(f"\n{H}[{H}+{H}] Select Password Method : ")
         if pw in[""]:
