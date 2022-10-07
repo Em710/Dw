@@ -35,8 +35,6 @@ from rich import print as cetak
 from rich.markdown import Markdown as mark
 from rich.columns import Columns as col
 from urllib.parse import quote
-ct = datetime.now()
-n = ct.month
 bulan = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'Agustus', 'September', 'October', 'November', 'December']
 try:
     if n < 0 or n > 12:
