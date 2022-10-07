@@ -6,29 +6,35 @@
 #      Coded By Yayan XD.
 
 import os
+import sys
+import time
+import requests
+import random
+import platform
+import base64
+import subprocess
+from concurrent.futures import ThreadPoolExecutor
+import requests,bs4,uuid,json,os,sys,random,datetime,time,re,subprocess
 try:
-    import requests
+	import rich
 except ImportError:
-    print('\n [×] Modul requests belum terinstall!...\n')
-    os.system('pip install requests')
-
-try:
-    import concurrent.futures
-except ImportError:
-    print('\n [×] Modul Futures belum terinstall!...\n')
-    os.system('pip install futures')
-
-try:
-    import bs4
-except ImportError:
-    print('\n [×] Modul Bs4 belum terinstall!...\n')
-    os.system('pip install bs4')
-
-import requests, os, re, bs4, sys, json, time, random, datetime, subprocess
-from concurrent.futures import ThreadPoolExecutor as YayanGanteng
-from datetime import datetime
-from bs4 import BeautifulSoup
-from requests import get
+	os.system('pip install rich')
+	time.sleep(1)
+	try:
+		import rich
+	except ImportError:
+		exit(' [×] Cant Install Rich Module, Try Manual Install (pip install rich)')
+from rich.table import Table as me
+from rich.console import Console as sol
+from bs4 import BeautifulSoup as sop
+from concurrent.futures import ThreadPoolExecutor as tred
+from rich.console import Group as gp
+from rich.panel import Panel as nel
+import base64
+from rich import print as cetak
+from rich.markdown import Markdown as mark
+from rich.columns import Columns as col
+from urllib.parse import quote
 ct = datetime.now()
 n = ct.month
 bulan = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'Agustus', 'September', 'October', 'November', 'December']
