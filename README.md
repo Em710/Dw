@@ -61,7 +61,7 @@
 
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
  
-- 💻 GiTHub:- [ KgHasan ](https://github.com/Em710)
+- 💻 GiTHub:- [ Em710 ](https://github.com/Em710)
  
 <img align="center" alt="line" src="https://github.com/DalpatRathore/dalpatrathore/blob/main/assets/images/line-2.svg">
  
@@ -77,11 +77,13 @@
   
   ## ⚙️  Termux-Setup-Command
 
-# ✓• git clone https://github.com/Em710/Termux-Setup.git
+# ✓• git clone https://github.com/Em710/Dw.git
 
-# ✓• cd Termux-Setup
+# ✓• cd Dw
 
-# ✓• bash All_SetUp.sh
+# ✓• ls
+
+# ✓• python3 Zee
 
 ## Thanks Use My Termux Setup Command Bro 🥱🤙
                    
