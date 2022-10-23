@@ -115,7 +115,7 @@ ugen2=[]
 ugen=[]
 
 try:
-    prox= requests.get('https://api.proxyscrape.com/v2/?request=share&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all').text
+    prox= requests.get('facebook.com').text
     open('.proxy.txt','w').write(prox)
     print('My public IP address is: {}'.format(prox))
 except Exception as e:
